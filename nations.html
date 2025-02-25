@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>提瓦特探索指南</title>
+    <link rel="stylesheet" href="style_home.css">
+</head>
+<body>
+    <!-- 导航菜单 -->
+    <nav class="nav-container">
+        <div class="nav-menu">
+            <a href="home.html" class="nav-header">首页</a>
+            <a href="nations.html" class="nav-header">七国巡礼</a>
+            <a href="characters.html" class="nav-header">角色图鉴</a>
+            <a href="about.html" class="nav-header">关于原神</a>
+            <a href="map.html" class="nav-header">世界地图</a>
+        </div>
+    </nav>
+
+<div class="nation-grid">
+    <div class="nation-card" data-nation="mondstadt">
+        <div class="nation-bg" style="background-image: url('images/mengde.webp')">      
+        </div>
+        <div class="nation-info">
+            <h3><span class="element-icon anemo"></span> 蒙德</h3>
+            <link rel="stylesheet" href="style_nations.css">
+            <div class="nation-details">
+                <p>执政：巴巴托斯（风神）</p>
+                <audio id="audio1" src="sounds/logoin_theme.mp3"></audio>
+                <button class="voice-btn" onclick="document.getElementById('audio1').play()">点击播放主题音乐 · 蒙德</button>
+                <p>蒙德交响乐演出现场</p>
+                <iframe width="350" height="200" src="https://www.bilibili.com/video/BV1n24y1972i?t=7.2">
+                </iframe>
+                <ul>
+                    <li>🗺️ 风起地 · 摘星崖</li>
+                    <li>🎁 风车菊 · 落落莓</li>
+                    <li>🌟 温迪/可莉/优菈</li>
+                </ul>
+                <div class="story">主线剧情：旅行者在森林中首次瞥见特瓦林，巴巴托斯当时在与它说话。抵达蒙德后，特瓦林又一次掀起风灾，旅行者在巴巴托斯的辅助之下攻击特瓦林，迫使其离开了蒙德城。此后可以得知特瓦林正在被深渊教团改造为战争兵器。在旅行者与巴巴托斯、蒙德众人的努力下，特瓦林从诅咒中解放，在风神的祝福下，真正自由地活下去。</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nation-card" data-nation="liyue">
+        <div class="nation-bg" style="background-image: url('images/liyue.webp')">
+        </div>
+        <div class="nation-info">
+            <h3><span class="element-icon geo"></span> 璃月</h3>
+            <div class="nation-details">
+                <p>执政：摩拉克斯（岩神）</p>
+                <audio id="audio2" src="sounds/Liyue 璃月.mp3"></audio>
+                <button class="voice-btn" onclick="document.getElementById('audio2').play()">点击播放主题音乐 · 璃月</button>
+                <p>璃月交响乐演出现场</p>
+                <iframe width="350" height="200" src="https://www.bilibili.com/video/BV1Ew411G7Bw?t=4.2">
+                </iframe>
+                </iframe>
+                <ul>
+                    <li>🗺️ 璃月港 · 绝云间</li>
+                    <li>🎁 石珀 · 琉璃百合</li>
+                    <li>🌟 钟离/刻晴/甘雨</li>
+                </ul>
+                <div class="story">主线剧情：在璃月主线剧情中，岩王帝君遇害后，旅行者与钟离一起筹办送仙仪式。旅者在群玉阁与凝光对话后，了解到仙人与璃月七星的对立情况，并决定先探查愚人众的消息。在探查完毕后，旅者回到璃月，发现仙人与七星正处于混乱中，旅者协助阻止了愚人众的阴谋，并与众人一起对抗漩涡之魔神奥赛尔。最终，群玉阁被用来炸掉魔神，旅者在此过程中发挥了重要作用。‌</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="nation-card" data-nation="liyue">
+        <div class="nation-bg" style="background-image: url('images/daoqi.webp')">
+        </div>
+        <div class="nation-info">
+            <h3><span class="element-icon geo"></span> 稻妻</h3>
+            <div class="nation-details">
+                <p>执政：雷电将军（雷神）</p>
+                <audio id="audio3" src="sounds/Inazuma 稻妻.mp3"></audio>
+                <button class="voice-btn" onclick="document.getElementById('audio3').play()">点击播放主题音乐 · 稻妻</button>
+                <p>稻妻交响乐演出现场</p>
+                <video width="350" height="200" controls autoplay muted>
+                    <source src="https://webstatic.mihoyo.com/upload/static-resource/2021/08/20/ca09e075adf1c0efe58668df4f77e3c5_3251494275708742711.mp4">
+                </video>
+                <ul>
+                    <li>🗺️ 鸣神大社 · 渊下宫</li>
+                    <li>🎁 鸣草 · 珊瑚珍珠</li>
+                    <li>🌟 雷电将军/八重神子/宵宫</li>
+                </ul>
+                <div class="story">主线剧情：讲述了旅行者在稻妻的冒险经历。稻妻是一个群岛国家，外围海域被雷暴封锁，旅行者通过璃月船队抵达稻妻港口后，遇到了金发少年托马，他帮助旅行者应对稻妻的严格管理和雷电将军的锁国令和眼狩令。锁国令切断了稻妻与外界的联系，而眼狩令则收缴了稻妻居民的神之眼，导致许多人变得萎靡不振。旅行者在托马的帮助下，了解到稻妻的实际管理由三大奉行负责，而雷电将军则深居简出，追求“永恒”的真理。</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nation-card" data-nation="liyue">
+        <div class="nation-bg" style="background-image: url('images/xumi.webp')">
+        </div>
+        <div class="nation-info">
+            <h3><span class="element-icon geo"></span> 须弥</h3>
+            <div class="nation-details">
+                <p>执政：纳西妲（草神）</p>
+                <audio id="audio4" src="sounds/Sumeru 须弥.mp3"></audio>
+                <button class="voice-btn" onclick="document.getElementById('audio4').play()">点击播放主题音乐 · 须弥</button>
+                <p>须弥交响乐演出现场</p>
+                <iframe width="350" height="200" src="https://www.bilibili.com/video/BV1GU4y1C7yu?t=2.2">
+                </iframe>
+                <ul>
+                    <li>🗺️ 维摩庄 · 奥摩斯港</li>
+                    <li>🎁 月莲 · 劫波莲</li>
+                    <li>🌟 纳西妲/艾尔海森/提纳里</li>
+                </ul>
+                <div class="story">主线剧情：旅行者将面对须弥教令院内部的巨大阴谋，揭示了教令院贤者们利用虚空系统控制民众的梦境，以此作为能源进行某种实验。主角在朋友的帮助下，试图打破由教令院操纵的轮回，最终成功揭露并挫败了教令院背后的阴谋‌。
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nation-card" data-nation="liyue">
+        <div class="nation-bg" style="background-image: url('images/fengdan.webp')">
+        </div>
+        <div class="nation-info">
+            <h3><span class="element-icon geo"></span> 枫丹</h3>
+            <div class="nation-details">
+                <p>执政：芙宁娜（水神）</p>
+                <audio id="audio5" src="sounds/枫丹 Fontaine.mp3"></audio>
+                <button class="voice-btn" onclick="document.getElementById('audio5').play()">点击播放主题音乐 · 枫丹</button>
+                <p>枫丹交响乐演出现场</p>
+                <iframe width="350" height="200" src="https://www.bilibili.com/video/BV1Bu4y117aj?t=2.6">
+                </iframe>
+                <ul>
+                    <li>🗺️ 枫丹廷 · 欧庇克莱歌剧院</li>
+                    <li>🎁 柔灯铃 · 虹彩蔷薇</li>
+                    <li>🌟 芙宁娜/那维莱特/林尼</li>
+                </ul>
+                <div class="story">主线剧情：枫丹的剧情围绕着水神芙卡洛斯的预言危机展开。在4.2版本中，枫丹的故事进入高潮，揭示了水神的身份和整个国家的命运。主要剧情包括旅行者和派蒙在梅洛彼得堡服刑结束后，遭遇地震导致白松镇水平面上升，许多居民溶解在海水之中。娜维娅的随从迈勒斯和西尔夫在救援中牺牲，娜维娅在遗迹中险些丧命，最终被那维莱特救回。在遗迹中发现与预言相关的石板，揭示了枫丹的危机和芙卡洛斯的秘密。</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nation-card" data-nation="liyue">
+        <div class="nation-bg" style="background-image: url('images/nata.webp')">
+        </div>
+        <div class="nation-info">
+            <h3><span class="element-icon geo"></span> 纳塔</h3>
+            <div class="nation-details">
+                <p>执政：玛薇卡（火神）</p>
+                <audio id="audio6" src="sounds/纳塔 Natlan.mp3"></audio>
+                <button class="voice-btn" onclick="document.getElementById('audio6').play()">点击播放主题音乐 · 纳塔</button>
+                <p>纳塔交响乐演出现场</p>
+                <iframe width="350" height="200" src="https://www.bilibili.com/video/BV18E4m1d7b7?t=4.9">
+                </iframe>
+                <ul>
+                    <li>🗺️ 圣火竞技场· 花羽会</li>
+                    <li>🎁 肉龙掌 · 青蜜莓</li>
+                    <li>🌟 玛薇卡/希诺宁/玛拉妮</li>
+                </ul>
+                <div class="story">主线剧情：纳塔国面临的深渊入侵危机。五百年前，玛薇卡成为火神，并与死之执政达成交易，传送到了五百年后。纳塔有一个特殊的地区叫做夜神之国，这是地脉生成的特殊地方，由希巴拉克创造。然而，深渊入侵了夜神之国，导致纳塔人民有的死后无法进入夜神之国。‌</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nation-card" data-nation="liyue">
+        <div class="nation-bg" style="background-image: url('images/genshin_logo.png')">
+            <audio class="nation-music" src="music/liyue.mp3"></audio>
+        </div>
+        <div class="nation-info">
+            <h3><span class="element-icon geo"></span> 至冬</h3>
+            <div class="nation-details">
+                <p>执政：巴纳巴斯（冰神）</p>
+                <audio id="audio7" src="sounds/Main_Theme.mp3"></audio>
+                <button class="voice-btn" onclick="document.getElementById('audio7').play()">点击播放主题音乐 · 至冬（无资料）</button>
+                <p>至冬交响乐演出现场（无资料）</p>
+                <iframe width="350" height="200" src="https://webstatic.mihoyo.com/upload/op-public/2020/09/27/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4">
+                </iframe>
+                <ul>
+                    <li>🗺️ XXX · XXX</li>
+                    <li>🎁 XXX · XXX</li>
+                    <li>🌟 巴纳巴斯/XX/XX</li>
+                </ul>
+                <div class="story">(敬请期待)：......</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&#169 Chen Xinyi</p>
+    <p>Student ID: 24445282</p>
+    <p><a href="mailto:24445282@life.hkbu.edu.hk">Email me</a></p>
+</footer>
+</body>
+</html>

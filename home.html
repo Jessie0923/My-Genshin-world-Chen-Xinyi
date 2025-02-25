@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>提瓦特探索指南</title>
+    <link rel="stylesheet" href="style_home.css">
+</head>
+<body>
+    <!-- 导航菜单 -->
+    <nav class="nav-container">
+        <div class="nav-menu">
+            <a href="home.html" class="nav-header">首页</a>
+            <a href="nations.html" class="nav-header">七国巡礼</a>
+            <a href="characters.html" class="nav-header">角色图鉴</a>
+            <a href="about.html" class="nav-header">关于原神</a>
+            <a href="map.html" class="nav-header">世界地图</a>
+        </div>
+    </nav>
+
+    <h1 class="title">你好！旅行者 欢迎来到提瓦特大陆</h1>
+    <audio id="audioPlayer" src="sounds/logoin_theme.mp3"></audio>
+<button class="voice-btn" onclick="playPause()">背景音乐播放/暂停</button>
+<script>
+function playPause() {
+  var audio = document.getElementById("audioPlayer");
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+}
+</script>
+<a href="https://www.bilibili.com/video/BV12k4y1F7sJ/?vd_source=ff74b2c051e15a4f76ecb5e7f9b3465d" target="_blank">
+    <img src="images/mian.jpeg" class="genshin-mianpage" width="100%" height="100%"></a>
+    <footer>
+        <p>&#169 Chen Xinyi</p>
+        <p>Student ID: 24445282</p>
+        <p><a href="mailto:24445282@life.hkbu.edu.hk">Email me</a></p>
+</footer>
+</body>
+</html>
